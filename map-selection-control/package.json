@@ -1,0 +1,14 @@
+{
+  "name": "click-us-map",
+  "version": "1.0.0",
+  "description": "clickable us map",
+  "main": "script.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.(html|css|js)\""
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.24",
+    "browser-sync": "^2.26.3"
+  }
+}
