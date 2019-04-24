@@ -19,4 +19,13 @@ $(document).ready(function() {
     disabledStates: ["TX"],
     debug: true
   });
+
+  // simulate a subsequent setValue call from Decisions:
+  setTimeout(() => {
+    map.setValue({
+      selectedStates: ["TX", "AK", "HI"],
+      disabledStates: ["GA", "FL"],
+      debug: true
+    });
+  }, 3000);
 });
