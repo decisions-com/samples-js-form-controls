@@ -3,6 +3,7 @@
 Decisions provides an API for creating custom form controls. This repository houses example(s).
 
 1. [Select-able Map](./map-selection-control/README.md) - a rendering of the United States Map where users can select states.
+1. [Tooltip Icon](./tool-tip-icon-control/README.md) - A simple HTML tooltip. It has inputs for "icon" character to show and tool tip text.
 
 # How It Works
 
