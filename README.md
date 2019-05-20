@@ -17,8 +17,8 @@ get and set the control's data, and handle resize events.
 interface JavaScriptFormControl {
     initialize(host: JQuery, component: any): void;
     resize(height: number, width: number): void;
-    setValue?(data: YourInputs): void;
-    getValue?(): YourOutputs;
+    setValue(data: YourInputs): void;
+    getValue(): YourOutputs;
 }
 
 /**
