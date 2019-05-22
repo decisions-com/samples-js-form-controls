@@ -3,6 +3,7 @@
 Decisions provides an API for creating custom form controls. This repository houses example(s).
 
 1. [Select-able Map](./map-selection-control/README.md) - a rendering of the United States Map where users can select states.
+1. [Tooltip Icon](./tool-tip-icon-control/README.md) - A simple HTML tooltip. It has inputs for "icon" character to show and tool tip text.
 
 # How It Works
 
@@ -17,8 +18,8 @@ get and set the control's data, and handle resize events.
 interface JavaScriptFormControl {
     initialize(host: JQuery, component: any): void;
     resize(height: number, width: number): void;
-    setValue?(data: YourInputs): void;
-    getValue?(): YourOutputs;
+    setValue(data: YourInputs): void;
+    getValue(): YourOutputs;
 }
 
 /**
