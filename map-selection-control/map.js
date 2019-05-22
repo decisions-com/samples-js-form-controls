@@ -65,14 +65,20 @@ var SelectableUsMap = (function() {
    */
   SelectableUsMap.prototype.setValue = function setValue(value) {
     this.debug = value.debug;
-    if (!value.selectedStates) {
-      return;
+
+    // remove prior highlight / disabled status:
+    $("path, circle").each(function() {
+      $(this).data("clicked", "no");
+      $(this).css("fill", "");
+      $(this).data("pointer-events", "");
+    });
+    
+    if (Array.isArray(value.selectedStates)) {
+      this.setSelected(value.selectedStates);
     }
-    this.setSelected(value.selectedStates);
-    if (!value.disabledStates) {
-      return;
+    if (Array.isArray(value.disabledStates)) {
+      this.setDisabledStates(value.disabledStates);
     }
-    this.setDisabledStates(value.disabledStates);
   };
   SelectableUsMap.prototype.getValue = SelectableUsMap.prototype.getSelected;
 
