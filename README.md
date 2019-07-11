@@ -4,6 +4,7 @@ Decisions provides an API for creating custom form controls. This repository hou
 
 1. [Select-able Map](./map-selection-control/README.md) - a rendering of the United States Map where users can select states.
 1. [Tooltip Icon](./tool-tip-icon-control/README.md) - A simple HTML tooltip. It has inputs for "icon" character to show and tool tip text.
+1. [Using A Library](./third-party-lib-control/README.md) - An example that uses a previously uploaded "Script Control."
 
 # How It Works
 
@@ -43,11 +44,7 @@ interface YourOutputs {
 There is a [basic example](https://documentation.decisions.com/creating-javascript-form-controls/) and an [advanced example](https://documentation.decisions.com/creating-javascript-form-controls-advanced/) at documentation.decisions.com.
 
 # External Libraries or CSS
-Decisions loads very few JavaScript libraries on its own (most notably jQuery) - thus you must handle
-the loading of any other libraries.
+Decisions loads very few JavaScript libraries on its own (most notably jQuery) - thus you must handle the loading of any other libraries.
 
 # TODOs
-
-1. Example Loading a 3rd Party Library with a module loader, (e.g. curl, esm-amd-loader, systemjs (require seems dead))
-    - just rely on jQuery for this, since it's there?
 1. Example with a bundled library (e.g. webpack/rollup)
