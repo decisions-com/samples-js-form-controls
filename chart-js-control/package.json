@@ -1,0 +1,43 @@
+{
+  "name": "@decisions/js-control-seed",
+  "version": "0.0.0",
+  "description": "Starter kit for authoring Decisions JavaScript Controls",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack --env.production",
+    "build-maps": "webpack --env.production --env.sourceMaps",
+    "tsc": "tsc -p tsconfig.json"
+  },
+  "author": "sam@decisions.com",
+  "repository": "https://github.com/decisions-com/js-control-seed",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "autoprefixer": "^9.6.5",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.2.0",
+    "html-inline-css-webpack-plugin": "^1.8.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.19.1",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.1",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.1",
+    "chart.js": "^2.9.3",
+    "jquery": "^3.3.1",
+    "moment": "^2.24.0"
+  },
+  "browserslist": "cover 99.5%"
+}

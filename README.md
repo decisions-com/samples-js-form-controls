@@ -4,6 +4,7 @@ Decisions provides an API for creating custom form controls. This repository hou
 
 1. [Select-able Map](./map-selection-control/README.md) - a rendering of the United States Map where users can select states.
 1. [Tooltip Icon](./tool-tip-icon-control/README.md) - A simple HTML tooltip. It has inputs for "icon" character to show and tool tip text.
+1. [Chart.js](./chart-js-control/README.md) - A JavaScript control wrapper for [Chart.js](https://www.chartjs.org/samples/latest/). This control is an example of a control which bundles one dependency (and avoids bundling others) using Webpack.
 
 # How It Works
 
@@ -48,6 +49,4 @@ the loading of any other libraries.
 
 # TODOs
 
-1. Example Loading a 3rd Party Library with a module loader, (e.g. curl, esm-amd-loader, systemjs (require seems dead))
-    - just rely on jQuery for this, since it's there?
-1. Example with a bundled library (e.g. webpack/rollup)
+1. Example Loading a 3rd Party Library with a Decisions Script Loader
