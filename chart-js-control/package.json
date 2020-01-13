@@ -36,7 +36,7 @@
   "dependencies": {
     "@types/jquery": "^3.3.1",
     "chart.js": "^2.9.3",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "moment": "^2.24.0"
   },
   "browserslist": "cover 99.5%"
