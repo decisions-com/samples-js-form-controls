@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@types/jquery": "^3.3.1",
-    "jquery": "^3.3.1",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0"
   },
   "browserslist": "cover 99.5%"
