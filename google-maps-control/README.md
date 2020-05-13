@@ -14,7 +14,7 @@ provides full control.
 ## Import the Example Project
 Here is an example project, demonstrating with some constant inputs how to use the control:
 
-[Google Maps Control Example](./Google&#32;Maps&#32;Control&#32;Example-11052020-092412.zip)
+[Google Maps Control Example](./Google&#32;Maps&#32;Control&#32;Example-13052020-011103.zip)
 
 ## Contributing to this Control 
 ### Requirements
